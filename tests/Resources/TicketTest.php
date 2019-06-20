@@ -34,5 +34,4 @@ class TicketApiTest extends TestCase
             ['search']
         ];
     }
-
 }

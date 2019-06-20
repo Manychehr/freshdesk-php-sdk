@@ -8,7 +8,6 @@
 
 namespace Freshdesk\Resources\Traits;
 
-
 /**
  * Create Trait
  *

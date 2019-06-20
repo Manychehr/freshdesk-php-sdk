@@ -19,7 +19,7 @@ class ApiExceptionTest extends TestCase
         parent::setUp();
 
         $this->class = ApiException::class;
-    } 
+    }
 
     public function methodsThatShouldExist()
     {

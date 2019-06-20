@@ -5,7 +5,6 @@
  */
 namespace Freshdesk\Exceptions;
 
-
 /**
  * Not Found Exception
  *

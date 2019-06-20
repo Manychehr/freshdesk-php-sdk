@@ -34,5 +34,4 @@ class Group extends AbstractResource
      * @internal
      */
     protected $endpoint = '/groups';
-
 }

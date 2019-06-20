@@ -7,6 +7,7 @@
  */
 
 namespace Freshdesk\Resources;
+
 use Freshdesk\Resources\Traits\AllTrait;
 use Freshdesk\Resources\Traits\CreateTrait;
 use Freshdesk\Resources\Traits\DeleteTrait;
@@ -33,5 +34,4 @@ class Category extends AbstractResource
      *
      */
     protected $endpoint = '/discussions/categories';
-
 }

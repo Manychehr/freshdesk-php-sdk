@@ -5,7 +5,6 @@
  */
 namespace Freshdesk\Exceptions;
 
-
 /**
  * Unsupported Accept Header Exception
  *

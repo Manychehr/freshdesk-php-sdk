@@ -7,6 +7,7 @@
  */
 
 namespace Freshdesk\Resources;
+
 use Freshdesk\Resources\Traits\DeleteTrait;
 use Freshdesk\Resources\Traits\UpdateTrait;
 use Freshdesk\Resources\Traits\ViewTrait;
@@ -122,5 +123,4 @@ class TimeEntry extends AbstractResource
     {
         return $this->api()->request('PUT', $this->endpoint($id));
     }
-
 }
