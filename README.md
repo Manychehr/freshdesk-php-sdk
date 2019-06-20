@@ -6,7 +6,7 @@
 NOTE: This library is forked from [mpclarkson/freshdesk-php-sdk](https://github.com/mpclarkson/freshdesk-php-sdk), since the origin is
 [not supported](https://github.com/mpclarkson/freshdesk-php-sdk/issues/24#issuecomment-480466671) anymore.
 
-This is a PHP 5.5+ SDK for the [Freshdesk](https://www.freshdesk.com) API v2.
+This is a PHP SDK for the [Freshdesk](https://www.freshdesk.com) API v2.
 
 If you have questions, please contact us or open an issue on GitHub.
 
