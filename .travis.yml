@@ -8,11 +8,19 @@ matrix:
 
   include:
     - php: 7.1
+      env: COVERAGE=1
     - php: 7.2
+      env: COVERAGE=0
     - php: 7.3
+      env: COVERAGE=0
     - php: nightly
+      env: COVERAGE=0
 
 before_script:
   - phpenv config-rm xdebug.ini
   - composer validate --strict
   - composer install --no-interaction --no-progress --no-suggest
+
+script:
+  - if [[ $COVERAGE = 0 ]]; then ./vendor/bin/phpunit --no-coverage; fi
+  - if [[ $COVERAGE = 1 ]]; then ./vendor/bin/phpunit; fi
