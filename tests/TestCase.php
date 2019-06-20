@@ -9,8 +9,9 @@
 namespace Freshdesk\tests;
 
 use Freshdesk\Api;
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
-abstract class TestCase extends \PHPUnit_Framework_TestCase
+abstract class TestCase extends PHPUnitTestCase
 {
 
     abstract function methodsThatShouldExist();
