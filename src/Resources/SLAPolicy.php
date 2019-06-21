@@ -7,6 +7,7 @@
  */
 
 namespace Freshdesk\Resources;
+
 use Freshdesk\Resources\Traits\AllTrait;
 use Freshdesk\Resources\Traits\ViewTrait;
 

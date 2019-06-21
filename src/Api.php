@@ -193,8 +193,7 @@ class Api
 
         $this->client = new Client([
                 'auth' => [$apiKey, 'X']
-            ]
-        );
+            ]);
 
         $this->setupResources();
     }
@@ -241,7 +240,8 @@ class Api
      * @throws AuthenticationException
      * @throws ConflictingStateException
      */
-    private function performRequest($method, $url, $options) {
+    private function performRequest($method, $url, $options)
+    {
 
         try {
             switch ($method) {

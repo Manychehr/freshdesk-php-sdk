@@ -6,7 +6,6 @@
 
 namespace Freshdesk\Exceptions;
 
-
 /**
  * Method Not Allowed Exception
  *

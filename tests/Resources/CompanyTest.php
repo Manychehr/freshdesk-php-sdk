@@ -4,7 +4,6 @@ namespace Freshdesk\tests\Resources;
 use Freshdesk\tests\TestCase;
 use Freshdesk\Resources\Company;
 
-
 /**
  * Company resource tests
  *
@@ -17,7 +16,7 @@ class CompanyApiTest extends TestCase
         parent::setUp();
 
         $this->class = Company::class;
-    } 
+    }
 
     public function methodsThatShouldExist()
     {

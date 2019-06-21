@@ -1,5 +1,6 @@
 <?php
 namespace Freshdesk\tests;
+
 use Freshdesk\Api;
 
 /**
@@ -16,7 +17,7 @@ class ApiTest extends TestCase
         parent::setUp();
 
         $this->class = Api::class;
-    } 
+    }
 
     public function methodsThatShouldExist()
     {

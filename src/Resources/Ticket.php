@@ -35,7 +35,7 @@ class Ticket extends AbstractResource
 
     /**
      * Restore a ticket
-     * 
+     *
      * Restores a previously deleted ticket
      *
      * @api

@@ -7,6 +7,7 @@
  */
 
 namespace Freshdesk\Resources;
+
 use Freshdesk\Resources\Traits\DeleteTrait;
 use Freshdesk\Resources\Traits\MonitorTrait;
 use Freshdesk\Resources\Traits\UpdateTrait;
@@ -99,5 +100,4 @@ class Topic extends AbstractResource
     {
         return $this->api()->request('GET', $this->forumsEndpoint($id . '/topics'), null, $query);
     }
-
 }
